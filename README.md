@@ -1,2 +1,2 @@
-# Quiz-Apo
+# Quiz-App
 Simple MCQ app 
