@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #a8e063, #56ab2f); /* Sylhet tea garden vibe */
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-container {
+  background: rgba(255, 255, 255, 0.92);
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+  width: 90%;
+  max-width: 520px;
+  text-align: center;
+  backdrop-filter: blur(8px);
+}
+
+h1 {
+  margin-bottom: 1.8rem;
+  color: #2c7744; /* Green for Sylhet */
+  font-size: 2.2rem;
+}
+
+.progress-container {
+  background: #e0f0e0;
+  height: 12px;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 1.2rem 0;
+}
+
+.progress {
+  background: linear-gradient(to right, #56ab2f, #a8e063);
+  height: 100%;
+  width: 0%;
+  transition: width 0.5s ease;
+}
+
+#question-number {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 0.5rem;
+  display: block;
+}
+
+#question {
+  font-size: 1.45rem;
+  font-weight: bold;
+  margin: 2rem 0 1.5rem;
+  color: #333;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.option {
+  background: #f9fff9;
+  padding: 1.2rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 1.1rem;
+  border: 2px solid #ccc;
+}
+
+.option:hover {
+  background: #e8f5e8;
+  border-color: #56ab2f;
+}
+
+.option.selected {
+  background: #56ab2f;
+  color: white;
+  border-color: #56ab2f;
+}
+
+#nextBtn {
+  padding: 0.9rem 2.5rem;
+  background: #2c7744;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.15rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#nextBtn:hover {
+  background: #1e5a32;
+}
+
+#nextBtn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.hidden {
+  display: none;
+}
+
+#result h2 {
+  margin: 1.5rem 0;
+  color: #2c7744;
+  font-size: 2rem;
+}
+
+#restartBtn {
+  padding: 0.9rem 2.5rem;
+  background: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .quiz-container { padding: 1.8rem; }
+  h1 { font-size: 1.9rem; }
+}
