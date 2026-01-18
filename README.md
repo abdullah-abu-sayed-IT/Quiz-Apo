@@ -1,6 +1,6 @@
-# Quiz-App
+# Quiz-Apo
 Simple MCQ app 
-# Quiz-App
+# Quiz-Apo
 
 An interactive multiple-choice quiz application built with HTML5, CSS3, and Vanilla JavaScript
 
