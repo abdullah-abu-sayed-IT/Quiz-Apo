@@ -1,6 +1,6 @@
 # Quiz-App
 Simple MCQ app 
-
+# Quiz-App
 
 An interactive multiple-choice quiz application built with HTML5, CSS3, and Vanilla JavaScript
 
@@ -11,7 +11,7 @@ An interactive multiple-choice quiz application built with HTML5, CSS3, and Vani
 - Score tracking with fun messages
 - Fully responsive (mobile-friendly)
 - Restart anytimeg
-- 
+  
 ## How to Play Clickk "Next Question" after selecting an answer.  
 Restart anytime for new set of questions!
 Feedbackk welcome! Let's make it even better. 🚀
