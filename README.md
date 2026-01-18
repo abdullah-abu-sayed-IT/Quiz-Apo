@@ -16,5 +16,5 @@ An interactive multiple-choice quiz application built with HTML5, CSS3, and Vani
 Restart anytime for new set of questions!
 Feedbackk welcome! Let's make it even better. 🚀
 ## Live Demo
-🔗 https://abdullah-abu-sayed-IT.github.io/Quiz-App/
+🔗 https://abdullah-abu-sayed-IT.github.io/Quiz-Apo/
 #WebDevelopment #JavaScript #QuizApp #BeginnerProject
